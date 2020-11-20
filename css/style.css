@@ -1,0 +1,55 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #ebebeb;
+}
+
+p,
+hr {
+  width: 80%;
+  margin: auto;
+}
+
+h2 {
+  font-size: 200%;
+  color: black;
+}
+
+h3 {
+  color: black;
+}
+
+img {
+  height: 180px;
+  padding: 10px 20px;
+}
+
+[class*="col-"] {
+  margin-bottom: 30px;
+}
+
+/* Debug rules */
+.debug [class*="col-"] {
+  height: 200px;
+  border: 1px solid black;
+  background-color: lightcyan;
+}
+
+/* Seconda sezione */
+.hiw {
+  background-color: #f9f9f9;
+  height: 100%;
+  color: black;
+  padding: 30px;
+}
+
+.why {
+  height: 100%;
+  padding: 30px;
+}
+
+.why img {
+  background-color: #428bca;
+  border-radius: 100%;
+  padding: 10px;
+}
